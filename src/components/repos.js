@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Repo from "./repo"
-import reposData from "../data/repos"
 export default () => {
     const [repos, setRepos] = useState([])
 
     useEffect(() => {
-        return setRepos(reposData)
         const data = sessionStorage.getItem('repos');
         if (data) {
             let myRepos = JSON.parse(data)
@@ -15,8 +13,8 @@ export default () => {
         async function fetchRepos() {
             const response = await fetch('https://api.github.com/users/jgmc3012/repos')
             let myRepos = await response.json()
-            sessionStorage.setItem('repos', JSON.stringify(myRepos));
-            setRepos(myRepos)
+            sessionStorage.setItem('repos', JSON.stringify(myRepos.slice(0,11)));
+            setRepos(myRepos.slice(0,11))
         }
 
         fetchRepos();
@@ -39,7 +37,6 @@ export default () => {
                     Ver perfil en github
                 </a>
             </div>
-            <div className="mt-2"></div>
         </div>
     )
 }

@@ -1,0 +1,62 @@
+{
+    "data": {
+        "email": "jgmc3012@gmail.com",
+        "username": "jgmc3012",
+        "certificates": [
+            {
+                "score": 9,
+                "code": "ba818529-870a-4947-a9af-1c5547a995f4",
+                "title": "Curso Profesional de Python"
+            }
+        ],
+        "articles": [],
+        "courses": [
+            {
+                "title": "Curso de programación concurrente en Python",
+                "progress": 82.0,
+                "url": "http://codigofacilito.com/courses/python-concurrente"
+            },
+            {
+                "title": "Curso Profesional de Python",
+                "progress": 100.0,
+                "url": "http://codigofacilito.com/courses/python-profesional"
+            },
+            {
+                "title": "Pruebas automatizadas en Python",
+                "progress": 100.0,
+                "url": "http://codigofacilito.com/courses/python-testing"
+            },
+            {
+                "title": "Crea un scraper web con Python",
+                "progress": 62.0,
+                "url": "http://codigofacilito.com/courses/scrapper-python"
+            },
+            {
+                "title": "Curso Profesional de Base de Datos",
+                "progress": 22.0,
+                "url": "http://codigofacilito.com/courses/base-datos-profesional"
+            },
+            {
+                "title": "Curso de aplicaciones web con Django",
+                "progress": 92.0,
+                "url": "http://codigofacilito.com/courses/aplicaciones-web-django"
+            },
+            {
+                "title": "Crea una API REST con Go",
+                "progress": 44.0,
+                "url": "http://codigofacilito.com/courses/go-rest"
+            }
+        ],
+        "finished_courses": [
+            {
+                "title": "Curso Profesional de Python",
+                "url": "http://codigofacilito.com/courses/python-profesional"
+            },
+            {
+                "title": "Pruebas automatizadas en Python",
+                "url": "http://codigofacilito.com/courses/python-testing"
+            }
+        ]
+    },
+    "errors": []
+}

@@ -17,3 +17,12 @@
 .repos-list {
     break-inside: avoid-column;
 }
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+body {
+    @apply bg-gray-100
+}

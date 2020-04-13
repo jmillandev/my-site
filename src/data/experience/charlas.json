@@ -1,0 +1,14 @@
+{
+    "slug": "charlas",
+    "title": "Charlas",
+    "description": "Algunas de mis experiencias mas resaltantes en los ultimos años",
+    "items": [
+        {
+            "name": "Python Developer",
+            "description": "Elaboracion de Scraper Web",
+            "from_data": "20-11-2019",
+            "to_date": "07-05-2020",
+            "company": "Yaxa.co"
+        }
+    ]
+}
